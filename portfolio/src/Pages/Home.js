@@ -1,8 +1,17 @@
 import React from "react";
-function Home() {
+const homePageStyles = {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '100vh',
+  };
+  
+  function Home() {
     return (
-        <div>Home Page</div>
-    )
-}
-
+      <div style={homePageStyles}>
+        {/* Home page content */}
+      </div>
+    );
+  }
+  
 export default Home
